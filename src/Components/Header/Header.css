@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin: 2rem auto;
+  max-width: 95%;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.lists {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.lists li {
+  margin-top: 0.5rem;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+}
+.lists > li:hover {
+  background-color: rgba(180, 146, 83, 0.423);
+  color: white;
+  padding: 0.25rem 0.35rem;
+  border-radius: 0.35rem;
+}
+.active {
+  color: white;
+  padding: 0.25rem 0.35rem;
+
+  border-bottom: 3px solid green;
+}
